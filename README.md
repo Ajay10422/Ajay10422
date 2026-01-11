@@ -171,4 +171,4 @@ Currently completing **AI & Data Analytics postgraduate certifications** in Cana
 
 **Data Engineer** | **ML Engineer** | **Analytics Engineer** roles in Canada
 
-*"Building data systems that turn chaos into clarity."*
+*"Building data systems that turns Clusters into Vision."*
