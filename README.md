@@ -33,8 +33,12 @@ Currently completing **AI & Data Analytics postgraduate certifications** in Cana
 
 ### 🚀 Featured Projects
 
-#### 1. [Cloud-Native Fuel Efficiency Platform](https://github.com/Ajay10422/Real-Time-Event-Streaming)
+#### 1. [Cloud-Native Fuel Efficiency Platform](https://github.com/Ajay10422/Forecasting-Fuel-Efficiency)
 > **Hybrid cloud platform with ML predictions serving <200ms latency**
+
+<table>
+<tr>
+<td width="300">
 
 | Component | Technology |
 |-----------|------------|
@@ -44,14 +48,26 @@ Currently completing **AI & Data Analytics postgraduate certifications** in Cana
 | **ML Model** | XGBoost via FastAPI |
 | **Dashboard** | Streamlit, Tableau |
 
-* Architected batch + real-time ingestion pipelines on Azure
-* Deployed XGBoost models via FastAPI serving fuel consumption forecasts
-* Implemented Medallion Architecture (Bronze/Silver/Gold)
+</td>
+<td>
+
+• Architected batch + real-time ingestion pipelines on Azure<br>
+• Deployed XGBoost models via FastAPI serving fuel consumption forecasts<br>
+• Implemented Medallion Architecture (Bronze/Silver/Gold)<br>
+• Achieved <200ms prediction latency in production
+
+</td>
+</tr>
+</table>
 
 ---
 
 #### 2. [Real-Time Event Streaming Pipeline](https://github.com/Ajay10422/Real-Time-Event-Streaming)
 > **Fault-tolerant Kafka pipeline with continuous model retraining**
+
+<table>
+<tr>
+<td width="300">
 
 | Component | Technology |
 |-----------|------------|
@@ -60,14 +76,26 @@ Currently completing **AI & Data Analytics postgraduate certifications** in Cana
 | **Architecture** | Medallion (Bronze/Silver/Gold) |
 | **Monitoring** | Streamlit Dashboard |
 
-* Engineered streaming pipeline processing vehicle sensor data in real-time
-* Implemented data drift detection triggering automatic model retraining
-* Achieved 99.5% data integrity across pipeline layers
+</td>
+<td>
+
+• Engineered streaming pipeline processing vehicle sensor data in real-time<br>
+• Implemented data drift detection triggering automatic model retraining<br>
+• Achieved 99.5% data integrity across pipeline layers<br>
+• Built live monitoring dashboard with Streamlit
+
+</td>
+</tr>
+</table>
 
 ---
 
-#### 3. [Enterprise Knowledge Retrieval System (RAG)](https://github.com/Ajay10422/Enterprise-Knowledge-Retrieval)
-> **Production RAG system with sub-second retrieval**
+#### 3. [Enterprise Knowledge Retrieval System (RAG)](https://github.com/Ajay10422/Crop_Chatbot)
+> **Production RAG system with sub-second retrieval for agricultural data**
+
+<table>
+<tr>
+<td width="300">
 
 | Component | Technology |
 |-----------|------------|
@@ -77,25 +105,45 @@ Currently completing **AI & Data Analytics postgraduate certifications** in Cana
 | **Backend** | Flask |
 | **Storage** | Snowflake |
 
-* Built production-ready RAG enabling natural language queries on unstructured data
-* Orchestrated text ingestion into FAISS vector stores with LangChain middleware
-* Achieved sub-second retrieval latency for non-technical users
+</td>
+<td>
+
+• Built production-ready RAG enabling natural language queries on unstructured data<br>
+• Orchestrated text ingestion into FAISS vector stores with LangChain middleware<br>
+• Achieved sub-second retrieval latency for non-technical users<br>
+• Designed for agricultural domain knowledge retrieval
+
+</td>
+</tr>
+</table>
 
 ---
 
-#### 4. [Azure & Snowflake ETL Pipeline](https://github.com/Ajay10422/Azure-Snowflake-ETL-Pipeline)
-> **Scalable cloud ETL with automated orchestration**
+#### 4. [Interactive Map Application](https://github.com/Ajay10422/Map_Application)
+> **Location-based data visualization platform**
+
+<table>
+<tr>
+<td width="300">
 
 | Component | Technology |
 |-----------|------------|
-| **Storage** | Azure Data Lake |
-| **Warehouse** | Snowflake (Snowpipe) |
-| **Orchestration** | Apache Airflow |
-| **Transformation** | DBT |
+| **Frontend** | Streamlit |
+| **Mapping** | Folium / Leaflet |
+| **Data Processing** | Python, Pandas |
+| **Visualization** | Interactive Maps |
 
-* Designed scalable ETL pipeline moving data from Azure to Snowflake
-* Automated ingestion using Snowpipe and Airflow DAGs
-* Optimized SQL queries improving performance by 40%
+</td>
+<td>
+
+• Built interactive mapping application for geospatial data visualization<br>
+• Implemented location-based filtering and search functionality<br>
+• Designed responsive UI for data exploration<br>
+• Integrated multiple data sources for comprehensive views
+
+</td>
+</tr>
+</table>
 
 ---
 
