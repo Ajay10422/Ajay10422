@@ -1,174 +1,89 @@
-# Hi, I'm Ajay Krishna 👋
-### Data & ML Engineer | Production Pipelines (5M+ records/day) | Python, Snowflake, Kafka, LangChain | ML Deployment (FastAPI, XGBoost) | Open to Relocation
+# Ajay Krishna
+### AI & GenAI Engineer · Azure · Python · RAG · Multi-Agent Systems
 
-Data & ML Engineer with **3+ years** building production data pipelines and deploying machine learning models at scale. I specialize in **cloud data platforms**, **real-time streaming**, and **ML systems** that serve predictions in production.
+Building production AI systems for regulated industries —
+compliance, insurance, financial services.
 
-Currently completing **AI & Data Analytics postgraduate certifications** in Canada.
-
----
-
-### 🎯 Key Results
-
-| Metric | Result |
-|--------|--------|
-| **Data Processing** | 5M+ records/day |
-| **ML Latency** | <200ms predictions |
-| **Data Integrity** | 99.5% |
-| **Automation Impact** | 25% time savings |
+Currently: Azure AI Engineer Associate (AI-102) · In Progress
+Location:  Oshawa → Toronto, Ontario, Canada
 
 ---
 
-### 🛠️ Technical Stack
+## 🔨 What I'm Building
 
-| Category | Technologies |
-|----------|--------------|
-| **Languages** | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat&logo=postgresql&logoColor=white) ![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white) |
-| **Data Engineering** | ![Apache Kafka](https://img.shields.io/badge/-Apache%20Kafka-231F20?style=flat&logo=apache-kafka&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Airflow](https://img.shields.io/badge/-Apache%20Airflow-017CEE?style=flat&logo=apache-airflow&logoColor=white) ![DBT](https://img.shields.io/badge/-DBT-FF694B?style=flat&logo=dbt&logoColor=white) |
-| **Cloud & Warehousing** | ![Azure](https://img.shields.io/badge/-Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white) ![Snowflake](https://img.shields.io/badge/-Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white) ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white) |
-| **Machine Learning** | ![XGBoost](https://img.shields.io/badge/-XGBoost-orange?style=flat) ![Scikit-learn](https://img.shields.io/badge/-Scikit_Learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) ![LangChain](https://img.shields.io/badge/-LangChain-339933?style=flat) ![FAISS](https://img.shields.io/badge/-FAISS-yellow?style=flat) |
-| **ML Deployment** | ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![Flask](https://img.shields.io/badge/-Flask-000000?style=flat&logo=flask&logoColor=white) ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white) |
-| **Visualization** | ![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=flat&logo=power-bi&logoColor=black) ![Tableau](https://img.shields.io/badge/-Tableau-E97627?style=flat&logo=tableau&logoColor=white) |
+### PolicyIntel — Enterprise Policy RAG
+Multi-document reconciliation engine for HR and insurance compliance.
+Detects conflicts and eligibility gaps across policy documents.
 
----
+Stack: Azure Document Intelligence · Azure AI Search (Hybrid HNSW + BM25)
+       Azure OpenAI o4-mini · Content Safety · Blob Storage (versioning)
+       FastAPI · Streamlit
 
-### 🚀 Featured Projects
+Highlight: Structured JSON output enforced by strict schema —
+           summary · findings · coverage_gaps · risk_level · cross_doc_comparison
+           Page-level citations with semantic reranker scores on every answer.
 
-#### 1. [Cloud-Native Fuel Efficiency Platform](https://github.com/Ajay10422/Forecasting-Fuel-Efficiency)
-> **Hybrid cloud platform with ML predictions serving <200ms latency**
-
-<table>
-<tr>
-<td width="300">
-
-| Component | Technology |
-|-----------|------------|
-| **Orchestration** | Apache Airflow |
-| **Streaming** | Azure Event Hubs |
-| **Warehouse** | Snowflake |
-| **ML Model** | XGBoost via FastAPI |
-| **Dashboard** | Streamlit, Tableau |
-
-</td>
-<td>
-
-• Architected batch + real-time ingestion pipelines on Azure<br>
-• Deployed XGBoost models via FastAPI serving fuel consumption forecasts<br>
-• Implemented Medallion Architecture (Bronze/Silver/Gold)<br>
-• Achieved <200ms prediction latency in production
-
-</td>
-</tr>
-</table>
+→ github.com/Ajay10422/policyintel
 
 ---
 
-#### 2. [Real-Time Event Streaming Pipeline](https://github.com/Ajay10422/Real-Time-Event-Streaming)
-> **Fault-tolerant Kafka pipeline with continuous model retraining**
+### AIRES™ — AI Risk Evaluation System
+Production AI governance platform built for The Bizcom Group Inc.
+Deployed on AWS ECS Fargate. Live at aires-risk.com.
 
-<table>
-<tr>
-<td width="300">
+Stack: FastAPI · PostgreSQL (RDS) · JWT Auth · AWS ECS Fargate
+       ALB · WAF (SQLi + XSS) · S3 · IAM Identity Center · GitHub Actions CI/CD
 
-| Component | Technology |
-|-----------|------------|
-| **Streaming** | Apache Kafka (Redpanda) |
-| **Processing** | Python, Docker |
-| **Architecture** | Medallion (Bronze/Silver/Gold) |
-| **Monitoring** | Streamlit Dashboard |
+Highlight: Remediation engine maps assessment answers to
+           NIST AI RMF · ISO 42001 · EU AI Act · GDPR guidance.
 
-</td>
-<td>
-
-• Engineered streaming pipeline processing vehicle sensor data in real-time<br>
-• Implemented data drift detection triggering automatic model retraining<br>
-• Achieved 99.5% data integrity across pipeline layers<br>
-• Built live monitoring dashboard with Streamlit
-
-</td>
-</tr>
-</table>
+→ aires-risk.com
 
 ---
 
-#### 3. [Enterprise Knowledge Retrieval System (RAG)](https://github.com/Ajay10422/Crop_Chatbot)
-> **Production RAG system with sub-second retrieval for agricultural data**
+### Cloud-Native Fuel Forecasting — AWS
+XGBoost model serving <200ms predictions via FastAPI.
+Batch + real-time ingestion with Medallion Architecture.
 
-<table>
-<tr>
-<td width="300">
+Stack: XGBoost · FastAPI · Apache Airflow · Azure Event Hubs
+       Snowflake · Streamlit · AWS (S3, Lambda, Glue)
 
-| Component | Technology |
-|-----------|------------|
-| **LLM Framework** | LangChain |
-| **Embeddings** | OpenAI API |
-| **Vector Store** | FAISS |
-| **Backend** | Flask |
-| **Storage** | Snowflake |
-
-</td>
-<td>
-
-• Built production-ready RAG enabling natural language queries on unstructured data<br>
-• Orchestrated text ingestion into FAISS vector stores with LangChain middleware<br>
-• Achieved sub-second retrieval latency for non-technical users<br>
-• Designed for agricultural domain knowledge retrieval
-
-</td>
-</tr>
-</table>
+→ github.com/Ajay10422/Forecasting-Fuel-Efficiency
 
 ---
 
-#### 4. [Interactive Map Application](https://github.com/Ajay10422/Map_Application)
-> **Location-based data visualization platform**
+## 🛠 Technical Stack
 
-<table>
-<tr>
-<td width="300">
+AI & GenAI        Azure OpenAI · Azure AI Search · Azure Document Intelligence
+                  Azure AI Content Safety · Azure AI Language · LangChain · FAISS
+                  RAG · Hybrid Search · Semantic Reranking · Prompt Engineering
+                  Multi-Agent Systems · Azure AI Foundry Agent Service
 
-| Component | Technology |
-|-----------|------------|
-| **Frontend** | Streamlit |
-| **Mapping** | Folium / Leaflet |
-| **Data Processing** | Python, Pandas |
-| **Visualization** | Interactive Maps |
+Cloud             Azure (AI Foundry · Blob Storage · Key Vault · App Insights)
+                  AWS (ECS Fargate · RDS · ALB · WAF · S3 · Lambda · Glue)
 
-</td>
-<td>
+Backend           Python · FastAPI · SQLAlchemy · PostgreSQL · Docker
 
-• Built interactive mapping application for geospatial data visualization<br>
-• Implemented location-based filtering and search functionality<br>
-• Designed responsive UI for data exploration<br>
-• Integrated multiple data sources for comprehensive views
-
-</td>
-</tr>
-</table>
+Data Engineering  Apache Kafka · Apache Airflow · Snowflake · dbt · PySpark
 
 ---
 
-### 💼 Professional Background
+## 📊 Professional Background
 
-**Data Operations & Quality Lead** @ Gameopedia (2020-2023)
-* Built ETL pipelines processing **5M+ gaming records daily** for Samsung's recommendation engine
-* Achieved **99.5% data integrity** through automated validation workflows
-* Created executive dashboards used across **3 business units**
-* Reduced manual processing time by **25%** through Python automation
+3 years @ Gameopedia — Data Operations & Quality Lead
+ETL pipelines processing 5M+ daily records for Samsung, Google, Xbox
+Azure Data Factory · Apache Airflow · Snowflake · Kafka
 
----
+Consulting @ The Bizcom Group Inc. (2026)
+Built and deployed AIRES™ — AI governance SaaS platform on AWS
+Sole engineer. Production deployment. NDA engagement.
 
-### 📫 Connect with Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ajay-krishna-952848159)
-[![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:ajaykrishna10422@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-green?style=for-the-badge&logo=google-chrome)](https://ajaykrishna.dev)
-
-📍 **Location:** Oshawa, Ontario, Canada (Open to Relocation)
+Education
+AI & Data Analytics — Durham College, Ontario (GPA 4.56)
 
 ---
 
-### 🎯 Currently Seeking
+## 📫 Connect
 
-**Data Engineer** | **ML Engineer** | **Analytics Engineer** roles in Canada
-
-*"Building data systems that turns Clusters into Vision."*
+LinkedIn  → linkedin.com/in/ajay-krishna-952848159
+Email     → ajaykrishna10422@gmail.com
