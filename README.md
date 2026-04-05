@@ -196,6 +196,4 @@ Built as a foundation for **LLM + geospatial query integration** — ask natural
 
 *Building AI that doesn't just answer — it reasons, cites, and audits.*
 
-`📍 Oshawa → Toronto · July 2026`
-
 </div>
