@@ -189,19 +189,6 @@ Built as a foundation for **LLM + geospatial query integration** — ask natural
 | 2020–2023 | Gameopedia | Data Operations Lead · 5M+ records/day · Samsung · Google · Xbox |
 | 2024–2025 | Durham College, Ontario | AI & Data Analytics · Postgraduate Certificate · GPA **4.56** |
 
----
-
-## 📈 Current Progress
-
-```
-Azure AI-102   [█████████████████████████] ✅  All modules complete · Booking exam now
-PolicyIntel    [████████████████░░░░░░░░░] 65%  Adding versioning · PII · guardrails
-Multi-Agent    [███░░░░░░░░░░░░░░░░░░░░░░] 10%  Next — Foundry Agent Service
-Invoice Intel  [░░░░░░░░░░░░░░░░░░░░░░░░░]  0%  Document Intelligence showcase · after
-```
-
----
-
 <div align="center">
 
 **Targeting** `GenAI Engineer` · `AI Engineer` · `LLM Engineer` · `Applied AI Engineer` **roles in Ontario**
