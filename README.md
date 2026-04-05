@@ -32,18 +32,19 @@
 
 ## 🧬 Who I Am
 
-```python
-ajay = {
-    "role"        : "AI & GenAI Engineer",
-    "cert"        : "Azure AI Engineer Associate (AI-102) — All Modules Complete ✅",
-    "focus"       : ["RAG Systems", "Multi-Agent AI", "LLM Orchestration", "Azure AI"],
-    "background"  : "3 yrs enterprise data · 5M+ records/day · Samsung · Google · Xbox",
-    "currently"   : "Building PolicyIntel — compliance RAG with conflict detection",
-    "next"        : ["Multi-Agent Triage", "Invoice Intelligence Pipeline"],
-    "relocating"  : "Oshawa → Toronto, July 2026",
-    "superpower"  : "Turning unstructured documents into auditable decision systems",
-}
-```
+> 3 years building enterprise data pipelines for Samsung, Google, and Xbox.
+> Then LLMs arrived — and I never looked back.
+>
+> I build AI systems that don't just retrieve — they reconcile conflicting information,
+> cite their sources, and explain every decision with an audit trail.
+
+| | |
+|---|---|
+| 🏗️ **Built** | Enterprise pipelines · 5M+ records/day · Samsung · Google · Xbox |
+| 🧠 **Now** | Production LLM systems · RAG · Multi-Agent AI · Azure AI Stack |
+| 🔨 **Building** | PolicyIntel — compliance RAG that detects conflicts across policy documents |
+| 🔜 **Next** | Multi-Agent Triage · Invoice Intelligence Pipeline |
+| 💬 **Belief** | The best AI doesn't summarise. It reconciles, cites, and audits. |
 
 ---
 
