@@ -39,13 +39,74 @@ I come from enterprise data engineering: 5M+ records/day, multi-cloud ETL, Snowf
 |---|---|
 | 🏗️ **Built** | Enterprise ETL pipelines · 5M+ records/day · Samsung · Google · Xbox |
 | 🧠 **Now** | Production LLM systems · RAG · Multi-Agent AI · Azure AI + AWS |
-| 🔨 **Shipped** | AIRES™ — AI governance SaaS (ISO 42001 · NIST AI RMF · EU AI Act) · PolicyIntel RAG |
-| 🔜 **Building** | Multi-Agent Customer Support Triage · Invoice Intelligence Pipeline |
+| 🔨 **Shipped** | AIRES™ AI Governance SaaS · PolicyIntel RAG · Invoice Triage Multi-Agent Pipeline |
 | 💬 **Belief** | The best AI doesn't summarise. It reconciles, cites, and audits. |
 
 ---
 
 ## 🚀 Featured Projects
+
+---
+
+### 🟠 Invoice Triage — Multi-Agent Invoice ETL Pipeline on Azure
+
+> *"Drop in any file. Six AI agents extract, clean, validate, index, and chart it — automatically."*
+
+**The problem:** Finance and ops teams manually process invoices across formats — PDFs, Excel files, scanned images, Word docs. Every format needs different parsing. Every hand-rolled pipeline is brittle. Duplicates slip through undetected.
+
+```
+  Your file (CSV · PDF · Excel · Image · Word · JSON)
+         │
+         ▼
+  Blob Storage ──► Trigger Agent
+                        │  generates run_id · reads x-prompt metadata
+                        ▼
+               Service Bus Topic (SQL-filtered subscriptions)
+                        │
+         ┌──────────────┼──────────────┬─────────────────┐
+         ▼              ▼              ▼                 ▼
+    Extract Agent  Transform Agent  Validate Agent   Save Agent
+    (DI 3-model    (GPT plans,      (GPT plans,      (AI Search
+     fallback)      Python runs)     Python runs)     batch upsert)
+                                                          │
+                                                     Chart Agent
+                                                  (Plotly HTML + PNG)
+                                                          │
+                                              Table Storage (live run state)
+                                                          │
+                                              Frontend polls /api/runs/{id}
+```
+
+**What makes it production-grade:**
+
+| Decision | Why It Matters |
+|---|---|
+| Service Bus topics with SQL filters | All agents share one topic — adding a new agent = one new subscription, zero code changes |
+| GPT as planner, Python as executor | LLM outputs JSON selecting from a hardcoded allow-list — no `eval()`, no `exec()` anywhere |
+| DI 3-model fallback chain | `prebuilt-invoice` → `prebuilt-layout` → `prebuilt-read` — never fails silently on any PDF |
+| Magic-byte file detection | Files without extensions identified by first 8 bytes, not filename |
+| Single-call batch duplicate detection | One AI Search HTTP call checks up to 50 invoice IDs — not one call per row |
+| `@lru_cache` on all SDK clients | TCP/TLS/AMQP connection pools reused across warm invocations — no reconnect overhead |
+| Parquet between agents | Preserves column types (integers stay integers) across boundaries — JSON loses that |
+| Full Bicep IaC | One command deploys all 7 Function Apps + Service Bus + Storage + Search + Key Vault |
+
+**8 supported file formats:**
+
+| Format | Parser |
+|---|---|
+| `.csv` `.tsv` `.txt` | pandas + chardet (auto-detects encoding) |
+| `.xlsx` `.xls` | pandas + openpyxl / xlrd (all sheets merged with `_sheet_name` column) |
+| `.json` | pandas + json_normalize (handles nested JSON and common wrapper keys) |
+| `.pdf` | Azure Document Intelligence — 3-model fallback chain |
+| `.docx` | python-docx (largest table wins; paragraphs as fallback) |
+| `.jpg` `.png` `.tiff` `.bmp` | Azure Document Intelligence — same fallback chain |
+| No extension | Magic-byte detection (first 8 bytes) |
+
+**Azure services:** Azure Functions (Python 3.11) · Service Bus · Blob + Table Storage · Azure OpenAI GPT-4o-mini · Document Intelligence · AI Search · Application Insights · Key Vault · Bicep IaC
+
+**Cost to run:** ~$28/month — one `az group delete` tears it all down; one `az deployment group create` brings it back.
+
+[![Repo](https://img.shields.io/badge/GitHub-invoice--triage-181717?style=for-the-badge&logo=github)](https://github.com/Ajay10422/invoice-triage)
 
 ---
 
@@ -140,7 +201,7 @@ Government CSVs + Synthetic IoT Stream
 | ☁️ Storage | Azure ADLS Gen2 | Scalable data lake for raw and curated datasets |
 | 📊 Dashboard | Streamlit · Tableau | Live monitoring, forecasting, and comparison UI |
 
-**Key results:** `99.5% data integrity` · `Multi-target prediction` (5 fuel/emissions metrics) · `Live at forecasting-fuel-efficiency-4.onrender.com`
+**Key results:** `99.5% data integrity` · `Multi-target prediction` (5 fuel/emissions metrics)
 
 [![Repo](https://img.shields.io/badge/GitHub-Forecasting--Fuel--Efficiency-181717?style=for-the-badge&logo=github)](https://github.com/Ajay10422/Forecasting-Fuel-Efficiency)
 [![Live Demo](https://img.shields.io/badge/Live_Demo-Render-46E3B7?style=for-the-badge)](https://forecasting-fuel-efficiency-4.onrender.com)
@@ -203,8 +264,8 @@ Built as a foundation for **LLM + geospatial query integration** — ask natural
 |---|---|
 | LLM Orchestration | Azure OpenAI · GPT-4o · GPT-4o-mini · o4-mini · Prompt Engineering |
 | RAG Systems | Azure AI Search · Hybrid Search · Semantic Reranking · FAISS · LangChain |
-| Document AI | Azure Document Intelligence · Layout Model · Form Recognition |
-| Agent Systems | Azure AI Foundry Agent Service · Function Tools · Multi-Agent Orchestration |
+| Document AI | Azure Document Intelligence · Layout Model · Form Recognition · 3-model fallback |
+| Agent Systems | Azure Functions · Service Bus · Multi-Agent Orchestration · Azure AI Foundry |
 | Safety & Governance | Azure AI Content Safety · PII Detection · Key Vault · PIPEDA · ISO 42001 · NIST AI RMF |
 | Evaluation | Faithfulness · Relevance scoring · Custom eval pipelines |
 
@@ -214,12 +275,12 @@ Built as a foundation for **LLM + geospatial query integration** — ask natural
 |---|---|
 | Languages | Python · SQL · Bash |
 | Backend | FastAPI · SQLAlchemy (async) · PostgreSQL · Docker · REST APIs · JWT |
-| Cloud — Azure | Blob Storage · ADLS Gen2 · AI Foundry · Key Vault · App Insights · Managed Identity |
+| Cloud — Azure | Functions · Blob Storage · ADLS Gen2 · Service Bus · Table Storage · Key Vault · App Insights |
 | Cloud — AWS | ECS Fargate · RDS · S3 · Lambda · Glue · ALB · WAF · IAM Identity Center |
+| IaC & CI/CD | Bicep · GitHub Actions · Docker |
 | Data Engineering | Apache Kafka · Apache Airflow · Snowflake · dbt · PySpark · Azure Data Factory |
 | Streaming | Snowpipe · Azure Event Hubs · Redpanda |
-| Visualization | Streamlit · Tableau · Power BI · Folium |
-| CI/CD | GitHub Actions · Docker · Render |
+| Visualization | Streamlit · Plotly · Tableau · Power BI · Folium |
 
 ---
 
@@ -228,7 +289,7 @@ Built as a foundation for **LLM + geospatial query integration** — ask natural
 | Period | Where | What |
 |---|---|---|
 | 2026 | **The Bizcom Group Inc.** *(Contract)* | Sole technical consultant — AIRES™ AI governance SaaS on AWS (ECS · RDS · ALB · WAF · IAM) |
-| 2020–2023 | **Gameopedia** | Data Operations & Quality Lead · 5M+ records/day · Samsung · Google · Xbox · Azure Data Factory · Airflow · Snowflake · Kafka |
+| 2020–2023 | **Gameopedia** | Data Operations & Quality Lead · 5M+ records/day · Samsung · Google · Xbox · ADF · Airflow · Snowflake · Kafka |
 | 2024–2025 | **Durham College, Ontario** | Postgrad Certificate — AI & Data Analytics · GPA **4.56 / 5.0** · Graduated 2025 |
 | 2016–2020 | **K Ramakrishnan College of Technology** | B.E. Computer Science Engineering |
 
