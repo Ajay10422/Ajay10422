@@ -19,7 +19,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ajay-krishna-952848159)
 [![Email](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ajaykrishna10422@gmail.com)
-[![Azure AI-102](https://img.shields.io/badge/Azure_AI--102-Exam_Ready-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/)
+[![Azure AI-103](https://img.shields.io/badge/Azure_AI--103-Exam_Scheduled_Aug_2026-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-apps-and-agents-developer-associate/)
 [![Location](https://img.shields.io/badge/Ontario_Canada-Open_to_Opportunities-00D4A1?style=for-the-badge)](https://github.com/Ajay10422)
 
 </div>
@@ -289,8 +289,8 @@ Built as a foundation for **LLM + geospatial query integration** — ask natural
 | Period | Where | What |
 |---|---|---|
 | 2026 | **The Bizcom Group Inc.** *(Contract)* | Sole technical consultant — AIRES™ AI governance SaaS on AWS (ECS · RDS · ALB · WAF · IAM) |
-| 2020–2023 | **Gameopedia** | Data Operations & Quality Lead · 5M+ records/day · Samsung · Google · Xbox · ADF · Airflow · Snowflake · Kafka |
 | 2024–2025 | **Durham College, Ontario** | Postgrad Certificate — AI & Data Analytics · GPA **4.56 / 5.0** · Graduated 2025 |
+| 2020–2023 | **Gameopedia** | Data Operations & Quality Lead · 5M+ records/day · Samsung · Google · Xbox · ADF · Airflow · Snowflake · Kafka |
 | 2016–2020 | **K Ramakrishnan College of Technology** | B.E. Computer Science Engineering |
 
 ---
@@ -326,14 +326,14 @@ AIRES™ (AI Risk Evaluation System) is a fully deployed AI governance platform 
 
 ## 📬 Let's Connect
 
-I'm actively looking for **GenAI Engineer / AI Engineer / LLM Engineer** roles in Ontario (open to Toronto hybrid / remote across Canada).
+I'm actively looking for **GenAI Engineer / AI Engineer / LLM Engineer** roles across Canada — on-site, hybrid, or remote, and open to relocation.
 
 If you're building something interesting with RAG, agents, or AI governance — let's talk.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ajay-krishna-952848159)
 [![Email](https://img.shields.io/badge/Email-ajaykrishna10422%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ajaykrishna10422@gmail.com)
 
-`📍 Oshawa → Toronto · July 2026`
+`📍 Ontario, Canada · Open to relocation`
 
 ---
 
