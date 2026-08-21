@@ -1,0 +1,163 @@
+{
+  "candidate": {
+    "name": "Ajay Krishna Ayyappan",
+    "email": "ajaykrishna10422@gmail.com",
+    "base": "Ontario, Canada",
+    "open_to_relocation": true,
+    "headline": "AI & GenAI Engineer - RAG, multi-agent systems, Azure AI, production LLM systems",
+    "years_experience": 3
+  },
+  "roles": {
+    "primary": [
+      "GenAI Engineer",
+      "AI Engineer",
+      "LLM Engineer",
+      "Machine Learning Engineer",
+      "Applied AI Engineer",
+      "Generative AI Developer"
+    ],
+    "internship": [
+      "AI Engineer Intern",
+      "Machine Learning Intern",
+      "AI Co-op"
+    ]
+  },
+  "locations": [
+    {
+      "label": "Ontario",
+      "linkedin": "Ontario, Canada",
+      "indeed": "Ontario",
+      "country": "CA",
+      "remote_only": false
+    },
+    {
+      "label": "Remote Canada",
+      "linkedin": "Canada",
+      "indeed": "remote",
+      "country": "CA",
+      "remote_only": true
+    },
+    {
+      "label": "Canada",
+      "linkedin": "Canada",
+      "indeed": "Toronto, Ontario",
+      "country": "CA",
+      "remote_only": false
+    }
+  ],
+  "filters": {
+    "max_age_days": 30,
+    "exclude_title_keywords": [
+      "director",
+      "vice president",
+      " vp ",
+      "head of",
+      "chief",
+      "sales",
+      "recruiter",
+      "account executive",
+      "business development",
+      "professor",
+      "lecturer",
+      "faculty"
+    ],
+    "exclude_description_keywords": [
+      "security clearance",
+      "ts/sci",
+      "must be a us citizen",
+      "us citizenship required",
+      "polygraph"
+    ],
+    "min_score": 10
+  },
+  "scoring": {
+    "skill_weights": {
+      "rag": 5,
+      "retrieval augmented": 5,
+      "llm": 5,
+      "generative ai": 5,
+      "genai": 5,
+      "agent": 4,
+      "multi-agent": 5,
+      "langchain": 4,
+      "langgraph": 4,
+      "vector": 3,
+      "azure openai": 5,
+      "azure ai": 4,
+      "openai": 3,
+      "prompt engineering": 3,
+      "fastapi": 3,
+      "python": 3,
+      "docker": 2,
+      "kubernetes": 1,
+      "azure": 3,
+      "aws": 2,
+      "bicep": 2,
+      "terraform": 1,
+      "snowflake": 3,
+      "airflow": 3,
+      "dbt": 2,
+      "pyspark": 2,
+      "kafka": 2,
+      "etl": 2,
+      "machine learning": 3,
+      "mlops": 3,
+      "pytorch": 2,
+      "tensorflow": 2,
+      "evaluation": 3,
+      "guardrails": 3,
+      "fine-tuning": 2,
+      "embeddings": 3,
+      "ai engineer": 5,
+      "artificial intelligence": 4,
+      "applied ai": 5,
+      "nlp": 3,
+      "deep learning": 3,
+      "data engineer": 3,
+      "data scientist": 2,
+      "software engineer": 2,
+      "computer vision": 1,
+      "gen ai": 5,
+      "generative": 5,
+      "ml engineer": 4
+    },
+    "title_multiplier": 3,
+    "seniority_penalties": {
+      "principal": -4,
+      "staff": -3,
+      "lead ": -2,
+      "senior": -1,
+      "manager": -4
+    },
+    "bonuses": {
+      "intern": 2,
+      "co-op": 2,
+      "junior": 2,
+      "remote": 2
+    }
+  },
+  "sources": {
+    "linkedin": {
+      "enabled": true,
+      "pages_per_query": 2,
+      "fetch_descriptions_top_n": 12
+    },
+    "indeed": {
+      "enabled": true
+    },
+    "web_ats": {
+      "enabled": true
+    },
+    "gmail": {
+      "enabled": true,
+      "lookback_hours": 14
+    }
+  },
+  "ats_domains": [
+    "boards.greenhouse.io",
+    "jobs.lever.co",
+    "jobs.ashbyhq.com",
+    "apply.workable.com",
+    "job-boards.greenhouse.io"
+  ]
+}
