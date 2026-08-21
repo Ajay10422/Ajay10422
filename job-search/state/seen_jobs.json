@@ -1,0 +1,624 @@
+{
+ "jobs": {
+  "in:aa87fyg8vym9": {
+   "company": "Accommodations Plus International",
+   "first_seen": "2026-08-21",
+   "title": "Principal Architect",
+   "url": "https://to.indeed.com/aa87fyg8vym9"
+  },
+  "in:aa8nhm2vly98": {
+   "company": "McKesson",
+   "first_seen": "2026-08-21",
+   "title": "Lead Data Scientist - AgenticAI",
+   "url": "https://to.indeed.com/aa8nhm2vly98"
+  },
+  "in:aabsmk7pt98z": {
+   "company": "Olympian Finances",
+   "first_seen": "2026-08-21",
+   "title": "IT Support Manager",
+   "url": "https://to.indeed.com/aabsmk7pt98z"
+  },
+  "in:aach9vpnbwnx": {
+   "company": "National Shunt Service",
+   "first_seen": "2026-08-21",
+   "title": "AI Engineer",
+   "url": "https://to.indeed.com/aach9vpnbwnx"
+  },
+  "in:aacshgb8ht7q": {
+   "company": "Weston Forest Products",
+   "first_seen": "2026-08-21",
+   "title": "Data Solutions Engineer",
+   "url": "https://to.indeed.com/aacshgb8ht7q"
+  },
+  "in:aaf2ly7ht4k6": {
+   "company": "Bevertec",
+   "first_seen": "2026-08-21",
+   "title": "FinOps Specialist - Multi-Vendor Data & Cost Analytics",
+   "url": "https://to.indeed.com/aaf2ly7ht4k6"
+  },
+  "in:aahzhmctr69q": {
+   "company": "Research Pandit",
+   "first_seen": "2026-08-21",
+   "title": "Applied AI Engineer",
+   "url": "https://to.indeed.com/aahzhmctr69q"
+  },
+  "in:aal9bstv6l24": {
+   "company": "CMiC",
+   "first_seen": "2026-08-21",
+   "title": "Software Engineer - API",
+   "url": "https://to.indeed.com/aal9bstv6l24"
+  },
+  "in:aapnxwy92z7p": {
+   "company": "RideCo",
+   "first_seen": "2026-08-21",
+   "title": "Full Stack Software Engineer",
+   "url": "https://to.indeed.com/aapnxwy92z7p"
+  },
+  "in:aatvkcq8pvgp": {
+   "company": "Research Pandit",
+   "first_seen": "2026-08-21",
+   "title": "Forward Deployed AI Engineer",
+   "url": "https://to.indeed.com/aatvkcq8pvgp"
+  },
+  "in:aavmsbg8mpwq": {
+   "company": "BMO Financial Group",
+   "first_seen": "2026-08-21",
+   "title": "AI CyberSecurity Architect",
+   "url": "https://to.indeed.com/aavmsbg8mpwq"
+  },
+  "in:aaxq6b6tscqt": {
+   "company": "A. Berger Precision Ltd",
+   "first_seen": "2026-08-21",
+   "title": "Engineering Manager",
+   "url": "https://to.indeed.com/aaxq6b6tscqt"
+  },
+  "li:4288031336": {
+   "company": "Cohere",
+   "first_seen": "2026-08-21",
+   "title": "Member of Technical Staff, Integration/RL Team (Research Engineer)",
+   "url": "https://ca.linkedin.com/jobs/view/member-of-technical-staff-integration-rl-team-research-engineer-at-cohere-4288031336"
+  },
+  "li:4370021473": {
+   "company": "Qualcomm",
+   "first_seen": "2026-08-21",
+   "title": "LLM Serving Engineer (Cloud AI Engineering), Senior / Staff Engineer",
+   "url": "https://ca.linkedin.com/jobs/view/llm-serving-engineer-cloud-ai-engineering-senior-staff-engineer-at-qualcomm-4370021473"
+  },
+  "li:4377937966": {
+   "company": "Thomson Reuters",
+   "first_seen": "2026-08-21",
+   "title": "Lead Software Engineer AI - (Materia AI)",
+   "url": "https://ca.linkedin.com/jobs/view/lead-software-engineer-ai-materia-ai-at-thomson-reuters-4377937966"
+  },
+  "li:4388387681": {
+   "company": "Rex.zone",
+   "first_seen": "2026-08-21",
+   "title": "AI Developer Jobs in Canada",
+   "url": "https://ca.linkedin.com/jobs/view/ai-developer-jobs-in-canada-at-rex-zone-4388387681"
+  },
+  "li:4418986197": {
+   "company": "Connor, Clark & Lunn Private Capital Ltd. (CC&L)",
+   "first_seen": "2026-08-21",
+   "title": "AI Solutions Engineer",
+   "url": "https://ca.linkedin.com/jobs/view/ai-solutions-engineer-at-connor-clark-lunn-private-capital-ltd-cc-l-4418986197"
+  },
+  "li:4419463732": {
+   "company": "StackAdapt",
+   "first_seen": "2026-08-21",
+   "title": "Senior/Staff Machine Learning Engineer",
+   "url": "https://ca.linkedin.com/jobs/view/senior-staff-machine-learning-engineer-at-stackadapt-4419463732"
+  },
+  "li:4425821722": {
+   "company": "Lenovo",
+   "first_seen": "2026-08-21",
+   "title": "Senior AI Developer",
+   "url": "https://ca.linkedin.com/jobs/view/senior-ai-developer-at-lenovo-4425821722"
+  },
+  "li:4428780688": {
+   "company": "SurveyMonkey",
+   "first_seen": "2026-08-21",
+   "title": "Senior Software Engineer II",
+   "url": "https://ca.linkedin.com/jobs/view/senior-software-engineer-ii-at-surveymonkey-4428780688"
+  },
+  "li:4437093844": {
+   "company": "EvenUp",
+   "first_seen": "2026-08-21",
+   "title": "Staff Machine Learning Engineer",
+   "url": "https://ca.linkedin.com/jobs/view/staff-machine-learning-engineer-at-evenup-4437093844"
+  },
+  "li:4437310270": {
+   "company": "PointClickCare",
+   "first_seen": "2026-08-21",
+   "title": "Principal AI Platform Engineer (CA)",
+   "url": "https://ca.linkedin.com/jobs/view/principal-ai-platform-engineer-ca-at-pointclickcare-4437310270"
+  },
+  "li:4438118266": {
+   "company": "Kinaxis",
+   "first_seen": "2026-08-21",
+   "title": "Machine Learning/Operations Research Platform Engineer",
+   "url": "https://ca.linkedin.com/jobs/view/machine-learning-operations-research-platform-engineer-at-kinaxis-4438118266"
+  },
+  "li:4438292640": {
+   "company": "Motorola Solutions",
+   "first_seen": "2026-08-21",
+   "title": "Sr Software Engineer, AI Agent Platform",
+   "url": "https://ca.linkedin.com/jobs/view/sr-software-engineer-ai-agent-platform-at-motorola-solutions-4438292640"
+  },
+  "li:4444193881": {
+   "company": "CGI",
+   "first_seen": "2026-08-21",
+   "title": "Cybersecurity AI Engineering Specialist",
+   "url": "https://ca.linkedin.com/jobs/view/cybersecurity-ai-engineering-specialist-at-cgi-4444193881"
+  },
+  "li:4444503118": {
+   "company": "CyberCoders",
+   "first_seen": "2026-08-21",
+   "title": "REMOTE Senior AI/ML Engineer (CDT/EDT)",
+   "url": "https://ca.linkedin.com/jobs/view/remote-senior-ai-ml-engineer-cdt-edt-at-cybercoders-4444503118"
+  },
+  "li:4444513647": {
+   "company": "PSP Investments | Investissements PSP",
+   "first_seen": "2026-08-21",
+   "title": "Senior Applied AI Engineer",
+   "url": "https://ca.linkedin.com/jobs/view/senior-applied-ai-engineer-at-psp-investments-investissements-psp-4444513647"
+  },
+  "li:4445937183": {
+   "company": "Skadra",
+   "first_seen": "2026-08-21",
+   "title": "Sp\u00e9cialiste en intelligence artificielle/Specialist in Artificial Intelligence",
+   "url": "https://ca.linkedin.com/jobs/view/sp%C3%A9cialiste-en-intelligence-artificielle-specialist-in-artificial-intelligence-at-skadra-4445937183"
+  },
+  "li:4445939185": {
+   "company": "Skadra",
+   "first_seen": "2026-08-21",
+   "title": "Ing\u00e9nieur vision/Ing\u00e9nieure vision",
+   "url": "https://ca.linkedin.com/jobs/view/ing%C3%A9nieur-vision-ing%C3%A9nieure-vision-at-skadra-4445939185"
+  },
+  "li:4446423663": {
+   "company": "Thomson Reuters",
+   "first_seen": "2026-08-21",
+   "title": "Lead Software Engineer, AI",
+   "url": "https://ca.linkedin.com/jobs/view/lead-software-engineer-ai-at-thomson-reuters-4446423663"
+  },
+  "li:4446431438": {
+   "company": "Scotiabank",
+   "first_seen": "2026-08-21",
+   "title": "Senior Software Engineer (Senior AI Engineer)",
+   "url": "https://ca.linkedin.com/jobs/view/senior-software-engineer-senior-ai-engineer-at-scotiabank-4446431438"
+  },
+  "li:4446434597": {
+   "company": "Autodesk",
+   "first_seen": "2026-08-21",
+   "title": "Senior Applied AI/ML Developer (AutoCAD & Civil 3D)",
+   "url": "https://ca.linkedin.com/jobs/view/senior-applied-ai-ml-developer-autocad-civil-3d-at-autodesk-4446434597"
+  },
+  "li:4446491953": {
+   "company": "Questrade Financial Group",
+   "first_seen": "2026-08-21",
+   "title": "Principal AI Engineer",
+   "url": "https://ca.linkedin.com/jobs/view/principal-ai-engineer-at-questrade-financial-group-4446491953"
+  },
+  "li:4446717136": {
+   "company": "PSP Investments | Investissements PSP",
+   "first_seen": "2026-08-21",
+   "title": "Ing\u00e9nieur(e) senior en IA appliqu\u00e9e",
+   "url": "https://ca.linkedin.com/jobs/view/ing%C3%A9nieur-e-senior-en-ia-appliqu%C3%A9e-at-psp-investments-investissements-psp-4446717136"
+  },
+  "li:4447005850": {
+   "company": "7shifts",
+   "first_seen": "2026-08-21",
+   "title": "AI Delivery Engineer",
+   "url": "https://ca.linkedin.com/jobs/view/ai-delivery-engineer-at-7shifts-4447005850"
+  },
+  "li:4449760351": {
+   "company": "Google",
+   "first_seen": "2026-08-21",
+   "title": "Senior Software Developer, Machine Learning, Applied AI",
+   "url": "https://ca.linkedin.com/jobs/view/senior-software-developer-machine-learning-applied-ai-at-google-4449760351"
+  },
+  "li:4452301048": {
+   "company": "Amii (Alberta Machine Intelligence Institute)",
+   "first_seen": "2026-08-21",
+   "title": "Machine Learning Resident \u2013 Client: Qualisure (12 month term)",
+   "url": "https://ca.linkedin.com/jobs/view/machine-learning-resident-%E2%80%93-client-qualisure-12-month-term-at-amii-alberta-machine-intelligence-institute-4452301048"
+  },
+  "li:4453046235": {
+   "company": "Equans Services Canada & US",
+   "first_seen": "2026-08-21",
+   "title": "Analyste d\u00e9veloppeur(euse) - Stagiaire YUL",
+   "url": "https://ca.linkedin.com/jobs/view/analyste-d%C3%A9veloppeur-euse-stagiaire-yul-at-equans-services-canada-us-4453046235"
+  },
+  "li:4453341038": {
+   "company": "GoTo",
+   "first_seen": "2026-08-21",
+   "title": "D\u00e9veloppeur Logiciel senior FS (IA) / Senior Full Stack Developer (AI-First)",
+   "url": "https://ca.linkedin.com/jobs/view/d%C3%A9veloppeur-logiciel-senior-fs-ia-senior-full-stack-developer-ai-first-at-goto-4453341038"
+  },
+  "li:4453632486": {
+   "company": "ABB",
+   "first_seen": "2026-08-21",
+   "title": "Stagiaire en num\u00e9risation des op\u00e9rations et qualit\u00e9 \u2013 Automne 2026",
+   "url": "https://ca.linkedin.com/jobs/view/stagiaire-en-num%C3%A9risation-des-op%C3%A9rations-et-qualit%C3%A9-%E2%80%93-automne-2026-at-abb-4453632486"
+  },
+  "li:4453868338": {
+   "company": "Teck Resources Limited",
+   "first_seen": "2026-08-21",
+   "title": "Leadership and Development Co-op",
+   "url": "https://ca.linkedin.com/jobs/view/leadership-and-development-co-op-at-teck-resources-limited-4453868338"
+  },
+  "li:4453883809": {
+   "company": "OLIX",
+   "first_seen": "2026-08-21",
+   "title": "Software Engineering Intern",
+   "url": "https://ca.linkedin.com/jobs/view/software-engineering-intern-at-olix-4453883809"
+  },
+  "li:4453886498": {
+   "company": "Staffline Solutions",
+   "first_seen": "2026-08-21",
+   "title": "Data Science Intern",
+   "url": "https://ca.linkedin.com/jobs/view/data-science-intern-at-staffline-solutions-4453886498"
+  },
+  "li:4453887991": {
+   "company": "La Caisse (Caisse de d\u00e9p\u00f4t et placement du Qu\u00e9bec)",
+   "first_seen": "2026-08-21",
+   "title": "Bassin de stages \u2013 Technologies num\u00e9riques (d\u00e8s janvier 2027)",
+   "url": "https://ca.linkedin.com/jobs/view/bassin-de-stages-%E2%80%93-technologies-num%C3%A9riques-d%C3%A8s-janvier-2027-at-la-caisse-caisse-de-d%C3%A9p%C3%B4t-et-placement-du-qu%C3%A9bec-4453887991"
+  },
+  "li:4454117162": {
+   "company": "Nexvant Solutions",
+   "first_seen": "2026-08-21",
+   "title": "AI Software Developer",
+   "url": "https://ca.linkedin.com/jobs/view/ai-software-developer-at-nexvant-solutions-4454117162"
+  },
+  "li:4454153051": {
+   "company": "Careerminds",
+   "first_seen": "2026-08-21",
+   "title": "Machine Learning Engineer",
+   "url": "https://ca.linkedin.com/jobs/view/machine-learning-engineer-at-careerminds-4454153051"
+  },
+  "li:4454467096": {
+   "company": "St. Michael's Hospital",
+   "first_seen": "2026-08-21",
+   "title": "Research Data Analyst Neurotrauma",
+   "url": "https://ca.linkedin.com/jobs/view/research-data-analyst-neurotrauma-at-st-michael-s-hospital-4454467096"
+  },
+  "li:4454537402": {
+   "company": "Stripe",
+   "first_seen": "2026-08-21",
+   "title": "Full Stack Engineer, Expansion",
+   "url": "https://ca.linkedin.com/jobs/view/full-stack-engineer-expansion-at-stripe-4454537402"
+  },
+  "li:4454759622": {
+   "company": "Insight Global",
+   "first_seen": "2026-08-21",
+   "title": "Python Developer",
+   "url": "https://ca.linkedin.com/jobs/view/python-developer-at-insight-global-4454759622"
+  },
+  "li:4455301887": {
+   "company": "BDO Canada",
+   "first_seen": "2026-08-21",
+   "title": "Co-op or Intern, Valuations & Modelling - Toronto - January 2027",
+   "url": "https://ca.linkedin.com/jobs/view/co-op-or-intern-valuations-modelling-toronto-january-2027-at-bdo-canada-4455301887"
+  },
+  "li:4455302881": {
+   "company": "BDO Canada",
+   "first_seen": "2026-08-21",
+   "title": "Co-op or Intern - Forensic Disputes & Investigations - Toronto - January 2027",
+   "url": "https://ca.linkedin.com/jobs/view/co-op-or-intern-forensic-disputes-investigations-toronto-january-2027-at-bdo-canada-4455302881"
+  },
+  "li:4455425619": {
+   "company": "mtl.ai",
+   "first_seen": "2026-08-21",
+   "title": "Senior Research Engineer \u2013 Machine Learning, Computer Vision",
+   "url": "https://ca.linkedin.com/jobs/view/senior-research-engineer-%E2%80%93-machine-learning-computer-vision-at-mtl-ai-4455425619"
+  },
+  "li:4455683624": {
+   "company": "Orbit Accountants",
+   "first_seen": "2026-08-21",
+   "title": "Software Engineer",
+   "url": "https://ca.linkedin.com/jobs/view/software-engineer-at-orbit-accountants-4455683624"
+  },
+  "li:4456004641": {
+   "company": "La Caisse (Caisse de d\u00e9p\u00f4t et placement du Qu\u00e9bec)",
+   "first_seen": "2026-08-21",
+   "title": "Bassin de stages \u2013 Technologies num\u00e9riques (d\u00e8s janvier 2027)- FR",
+   "url": "https://ca.linkedin.com/jobs/view/bassin-de-stages-%E2%80%93-technologies-num%C3%A9riques-d%C3%A8s-janvier-2027-fr-at-la-caisse-caisse-de-d%C3%A9p%C3%B4t-et-placement-du-qu%C3%A9bec-4456004641"
+  },
+  "li:4456018943": {
+   "company": "PointClickCare",
+   "first_seen": "2026-08-21",
+   "title": "Principal AI Engineer",
+   "url": "https://ca.linkedin.com/jobs/view/principal-ai-engineer-at-pointclickcare-4456018943"
+  },
+  "li:4456026199": {
+   "company": "Intact",
+   "first_seen": "2026-08-21",
+   "title": "D\u00e9veloppeur IA principal (senior)",
+   "url": "https://ca.linkedin.com/jobs/view/d%C3%A9veloppeur-ia-principal-senior-at-intact-4456026199"
+  },
+  "li:4456033816": {
+   "company": "Deloitte",
+   "first_seen": "2026-08-21",
+   "title": "TetT Ing\u00e9nierie IA et donn\u00e9es,Solutions li\u00e9es aux op\u00e9rations, secteurs et domaines Nouveaux dipl\u00f4m\u00e9s",
+   "url": "https://ca.linkedin.com/jobs/view/tett-ing%C3%A9nierie-ia-et-donn%C3%A9es-solutions-li%C3%A9es-aux-op%C3%A9rations-secteurs-et-domaines-nouveaux-dipl%C3%B4m%C3%A9s-at-deloitte-4456033816"
+  },
+  "li:4456037053": {
+   "company": "EnerSys",
+   "first_seen": "2026-08-21",
+   "title": "Software Engineering Co-Op",
+   "url": "https://ca.linkedin.com/jobs/view/software-engineering-co-op-at-enersys-4456037053"
+  },
+  "li:4456037968": {
+   "company": "Slalom",
+   "first_seen": "2026-08-21",
+   "title": "AI Engineer - Consultant",
+   "url": "https://ca.linkedin.com/jobs/view/ai-engineer-consultant-at-slalom-4456037968"
+  },
+  "li:4456042247": {
+   "company": "ThoughtStorm",
+   "first_seen": "2026-08-21",
+   "title": "Software Developer - API",
+   "url": "https://ca.linkedin.com/jobs/view/software-developer-api-at-thoughtstorm-4456042247"
+  },
+  "li:4456051555": {
+   "company": "HCLTech",
+   "first_seen": "2026-08-21",
+   "title": "Distinguished Engineer \u2014 Agentic AI (Deep-Tech R&D)",
+   "url": "https://ca.linkedin.com/jobs/view/distinguished-engineer-%E2%80%94-agentic-ai-deep-tech-r-d-at-hcltech-4456051555"
+  },
+  "li:4456066135": {
+   "company": "Transition Ventures",
+   "first_seen": "2026-08-21",
+   "title": "Software Engineering Intern",
+   "url": "https://ca.linkedin.com/jobs/view/software-engineering-intern-at-transition-ventures-4456066135"
+  },
+  "li:4456068502": {
+   "company": "SecureRx Technologies Inc.",
+   "first_seen": "2026-08-21",
+   "title": "Software Developer / Engineer Intern (Co-op) \u2013 Summer 2027, (Healthcare SaaS) - Remote",
+   "url": "https://ca.linkedin.com/jobs/view/software-developer-engineer-intern-co-op-%E2%80%93-summer-2027-healthcare-saas-remote-at-securerx-technologies-inc-4456068502"
+  },
+  "li:4456077465": {
+   "company": "Jobgether",
+   "first_seen": "2026-08-21",
+   "title": "Senior AI Developer",
+   "url": "https://ca.linkedin.com/jobs/view/senior-ai-developer-at-jobgether-4456077465"
+  },
+  "li:4456367288": {
+   "company": "Vancity",
+   "first_seen": "2026-08-21",
+   "title": "Machine Learning Engineer Lead",
+   "url": "https://ca.linkedin.com/jobs/view/machine-learning-engineer-lead-at-vancity-4456367288"
+  },
+  "li:4456410197": {
+   "company": "Cognichip",
+   "first_seen": "2026-08-21",
+   "title": "Sr. Software Engineer - Agentic AI Systems",
+   "url": "https://ca.linkedin.com/jobs/view/sr-software-engineer-agentic-ai-systems-at-cognichip-4456410197"
+  },
+  "li:4456464285": {
+   "company": "Capgemini",
+   "first_seen": "2026-08-21",
+   "title": "Gen AI Developer",
+   "url": "https://ca.linkedin.com/jobs/view/gen-ai-developer-at-capgemini-4456464285"
+  },
+  "li:4456464559": {
+   "company": "Harris Computer",
+   "first_seen": "2026-08-21",
+   "title": "(Remote) AI Champion",
+   "url": "https://ca.linkedin.com/jobs/view/remote-ai-champion-at-harris-computer-4456464559"
+  },
+  "li:4456471067": {
+   "company": "EndeavourOn",
+   "first_seen": "2026-08-21",
+   "title": "Data Science & Data Engineering Intern \u2013 Quote Intelligence",
+   "url": "https://ca.linkedin.com/jobs/view/data-science-data-engineering-intern-%E2%80%93-quote-intelligence-at-endeavouron-4456471067"
+  },
+  "li:4456476450": {
+   "company": "ACENSI",
+   "first_seen": "2026-08-21",
+   "title": "Data Engineer",
+   "url": "https://ca.linkedin.com/jobs/view/data-engineer-at-acensi-4456476450"
+  },
+  "li:4456725764": {
+   "company": "Capital One",
+   "first_seen": "2026-08-21",
+   "title": "Intern, Full Stack Software Engineer - Team Sprout - Winter 2027",
+   "url": "https://ca.linkedin.com/jobs/view/intern-full-stack-software-engineer-team-sprout-winter-2027-at-capital-one-4456725764"
+  },
+  "li:4456725808": {
+   "company": "Intelli5",
+   "first_seen": "2026-08-21",
+   "title": "Data Scientist",
+   "url": "https://ca.linkedin.com/jobs/view/data-scientist-at-intelli5-4456725808"
+  },
+  "li:4456759124": {
+   "company": "ILAC",
+   "first_seen": "2026-08-21",
+   "title": "Power Platform & AI Developer",
+   "url": "https://ca.linkedin.com/jobs/view/power-platform-ai-developer-at-ilac-4456759124"
+  },
+  "li:4456771796": {
+   "company": "Green Infrastructure Partners",
+   "first_seen": "2026-08-21",
+   "title": "Co-op, Enterprise Applications",
+   "url": "https://ca.linkedin.com/jobs/view/co-op-enterprise-applications-at-green-infrastructure-partners-4456771796"
+  },
+  "li:4456775751": {
+   "company": "Green Infrastructure Partners",
+   "first_seen": "2026-08-21",
+   "title": "Co-op, Information Technology",
+   "url": "https://ca.linkedin.com/jobs/view/co-op-information-technology-at-green-infrastructure-partners-4456775751"
+  },
+  "li:4456775926": {
+   "company": "RBC",
+   "first_seen": "2026-08-21",
+   "title": "2027 Winter - GRM, Portfolio Risk Data & AI Analyst Intern (4 Months)",
+   "url": "https://ca.linkedin.com/jobs/view/2027-winter-grm-portfolio-risk-data-ai-analyst-intern-4-months-at-rbc-4456775926"
+  },
+  "li:4456784936": {
+   "company": "QuadReal Property Group",
+   "first_seen": "2026-08-21",
+   "title": "Data Documentation & Quality, Fall 2026 - Toronto (Co-op/Internship) - 4 Months",
+   "url": "https://ca.linkedin.com/jobs/view/data-documentation-quality-fall-2026-toronto-co-op-internship-4-months-at-quadreal-property-group-4456784936"
+  },
+  "li:4456786408": {
+   "company": "Deloitte",
+   "first_seen": "2026-08-21",
+   "title": "Tech & Transformation - Cyber - Digital Trust & Privacy - Co-op/Intern 2027 - Multiple Locations",
+   "url": "https://ca.linkedin.com/jobs/view/tech-transformation-cyber-digital-trust-privacy-co-op-intern-2027-multiple-locations-at-deloitte-4456786408"
+  },
+  "li:4456787957": {
+   "company": "ClickHouse",
+   "first_seen": "2026-08-21",
+   "title": "AI Product Engineer - ClickStack",
+   "url": "https://ca.linkedin.com/jobs/view/ai-product-engineer-clickstack-at-clickhouse-4456787957"
+  },
+  "li:4456799520": {
+   "company": "Instacart",
+   "first_seen": "2026-08-21",
+   "title": "Senior Machine Learning Engineer, Digital Twin Platform",
+   "url": "https://ca.linkedin.com/jobs/view/senior-machine-learning-engineer-digital-twin-platform-at-instacart-4456799520"
+  },
+  "li:4457003715": {
+   "company": "AeroVect",
+   "first_seen": "2026-08-21",
+   "title": "Software Engineer, ML Ops",
+   "url": "https://ca.linkedin.com/jobs/view/software-engineer-ml-ops-at-aerovect-4457003715"
+  },
+  "li:4457006284": {
+   "company": "BMO",
+   "first_seen": "2026-08-21",
+   "title": "Machine Learning Engineer",
+   "url": "https://ca.linkedin.com/jobs/view/machine-learning-engineer-at-bmo-4457006284"
+  },
+  "li:4457009121": {
+   "company": "Ascii Group, LLC",
+   "first_seen": "2026-08-21",
+   "title": "AI Developer/Lead",
+   "url": "https://ca.linkedin.com/jobs/view/ai-developer-lead-at-ascii-group-llc-4457009121"
+  },
+  "li:4457014732": {
+   "company": "IG Wealth Management",
+   "first_seen": "2026-08-21",
+   "title": "Winter Intern 2027 - Corporate Platforms - Finance, Data and Reporting",
+   "url": "https://ca.linkedin.com/jobs/view/winter-intern-2027-corporate-platforms-finance-data-and-reporting-at-ig-wealth-management-4457014732"
+  },
+  "li:4457014865": {
+   "company": "Syntax",
+   "first_seen": "2026-08-21",
+   "title": "Developer, GenAI Solutions",
+   "url": "https://ca.linkedin.com/jobs/view/developer-genai-solutions-at-syntax-4457014865"
+  },
+  "li:4457015561": {
+   "company": "EXFO",
+   "first_seen": "2026-08-21",
+   "title": "Stagiaire ing\u00e9nieur logiciel / Software Engineer Intern",
+   "url": "https://ca.linkedin.com/jobs/view/stagiaire-ing%C3%A9nieur-logiciel-software-engineer-intern-at-exfo-4457015561"
+  },
+  "li:4457016196": {
+   "company": "BMO",
+   "first_seen": "2026-08-21",
+   "title": "Software Developer, Winter 2027 (Co-op/Internship) - 12 Months",
+   "url": "https://ca.linkedin.com/jobs/view/software-developer-winter-2027-co-op-internship-12-months-at-bmo-4457016196"
+  },
+  "li:4457019212": {
+   "company": "BMO",
+   "first_seen": "2026-08-21",
+   "title": "Software Developer, Winter 2027 (Co-op/Internship) - 8 Months",
+   "url": "https://ca.linkedin.com/jobs/view/software-developer-winter-2027-co-op-internship-8-months-at-bmo-4457019212"
+  },
+  "li:4457024992": {
+   "company": "HelloFresh",
+   "first_seen": "2026-08-21",
+   "title": "Senior Data Scientist, Commercial",
+   "url": "https://ca.linkedin.com/jobs/view/senior-data-scientist-commercial-at-hellofresh-4457024992"
+  },
+  "li:4457028161": {
+   "company": "BMO",
+   "first_seen": "2026-08-21",
+   "title": "Cloud Business & Strategy Analytics Analyst, Winter 2027 (Co-op/Internship) - 4 Months",
+   "url": "https://ca.linkedin.com/jobs/view/cloud-business-strategy-analytics-analyst-winter-2027-co-op-internship-4-months-at-bmo-4457028161"
+  },
+  "li:4457035389": {
+   "company": "GitLab",
+   "first_seen": "2026-08-21",
+   "title": "Backend Engineer, AI Engineering: Duo Chat",
+   "url": "https://ca.linkedin.com/jobs/view/backend-engineer-ai-engineering-duo-chat-at-gitlab-4457035389"
+  },
+  "li:4457043959": {
+   "company": "Amii (Alberta Machine Intelligence Institute)",
+   "first_seen": "2026-08-21",
+   "title": "Machine Learning Resident \u2013 Client: OpenCycle (12 month term)",
+   "url": "https://ca.linkedin.com/jobs/view/machine-learning-resident-%E2%80%93-client-opencycle-12-month-term-at-amii-alberta-machine-intelligence-institute-4457043959"
+  },
+  "li:4457046003": {
+   "company": "DataPattern",
+   "first_seen": "2026-08-21",
+   "title": "Senior AI Engineer",
+   "url": "https://ca.linkedin.com/jobs/view/senior-ai-engineer-at-datapattern-4457046003"
+  },
+  "li:4457054471": {
+   "company": "CGI",
+   "first_seen": "2026-08-21",
+   "title": "\u00c9v\u00e9nement coop L\u2019avenir de l\u2019IA chez CGI",
+   "url": "https://ca.linkedin.com/jobs/view/%C3%A9v%C3%A9nement-coop-l%E2%80%99avenir-de-l%E2%80%99ia-chez-cgi-at-cgi-4457054471"
+  },
+  "li:4457061084": {
+   "company": "Instacart",
+   "first_seen": "2026-08-21",
+   "title": "Machine Learning Engineer II, Ads - Response Prediction",
+   "url": "https://ca.linkedin.com/jobs/view/machine-learning-engineer-ii-ads-response-prediction-at-instacart-4457061084"
+  },
+  "li:4457061362": {
+   "company": "CGI",
+   "first_seen": "2026-08-21",
+   "title": "AI Futures @ CGI Co-op Event",
+   "url": "https://ca.linkedin.com/jobs/view/ai-futures-%40-cgi-co-op-event-at-cgi-4457061362"
+  },
+  "li:4457068956": {
+   "company": "Mistplay",
+   "first_seen": "2026-08-21",
+   "title": "Staff Machine Learning Engineer, Rewards Economy",
+   "url": "https://ca.linkedin.com/jobs/view/staff-machine-learning-engineer-rewards-economy-at-mistplay-4457068956"
+  },
+  "web:4023708007": {
+   "company": "mozilla.ai",
+   "first_seen": "2026-08-21",
+   "title": "Machine Learning Engineer (LLMs)",
+   "url": "https://boards.greenhouse.io/mozillaai/jobs/4023708007"
+  },
+  "web:4116462007": {
+   "company": "Tenstorrent",
+   "first_seen": "2026-08-21",
+   "title": "Sr. Software Engineer, AI Compiler",
+   "url": "https://boards.greenhouse.io/tenstorrent/jobs/4116462007"
+  },
+  "web:4354320005": {
+   "company": "Roofr",
+   "first_seen": "2026-08-21",
+   "title": "Machine Learning Engineer",
+   "url": "https://boards.greenhouse.io/roofr/jobs/4354320005"
+  },
+  "web:4371545003": {
+   "company": "Axon",
+   "first_seen": "2026-08-21",
+   "title": "Senior Machine Learning Engineer - AI Platform (Remote)",
+   "url": "https://boards.greenhouse.io/axon/jobs/4371545003"
+  },
+  "web:4944030004": {
+   "company": "Boosted.ai",
+   "first_seen": "2026-08-21",
+   "title": "Machine Learning Engineer",
+   "url": "https://boards.greenhouse.io/boostedai/jobs/4944030004"
+  },
+  "web:5361523": {
+   "company": "Gusto",
+   "first_seen": "2026-08-21",
+   "title": "ML/AI Operations Engineer",
+   "url": "https://boards.greenhouse.io/gusto/jobs/5361523"
+  }
+ },
+ "updated": "2026-08-21",
+ "version": 1
+}

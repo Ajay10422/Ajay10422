@@ -127,6 +127,10 @@ def excluded(job: dict, config: dict) -> str | None:
     for term in filters["exclude_title_keywords"]:
         if term.strip() and term.strip() in title:
             return f"title contains '{term.strip()}'"
+    company = (job.get("company") or "").lower()
+    for term in filters.get("exclude_companies", []):
+        if term and term in company:
+            return f"aggregator/excluded company '{term}'"
     for term in filters["exclude_description_keywords"]:
         if body and term in body:
             return f"description contains '{term}'"

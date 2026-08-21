@@ -179,11 +179,13 @@ Outputs land in `/tmp/jobradar/`: `digest.json`, `digest.email.html`,
 There is one long-lived "Job Radar" artifact that each run updates in place, so
 the link Ajay keeps stays current.
 
-1. `Artifact` with `action: "list"` and find the entry titled **Job Radar**.
-2. Publish `/tmp/jobradar/digest.artifact.html` with that entry's `url` passed
-   as `url:` so it redeploys to the same address. Use `favicon: "📡"`.
-3. If no such entry exists (first ever run), publish without `url` and note the
-   new address in the email.
+Publish `/tmp/jobradar/digest.artifact.html` with the `url` from
+`config.delivery.artifact_url` so it redeploys to the same address, with
+`favicon: "📡"`. Keep the title as **Job Radar** - do not rename it.
+
+If that publish fails because the artifact was deleted, publish without `url`,
+then write the new address back into `config.delivery.artifact_url` and commit
+that change alongside the seen store.
 
 Then write the artifact URL into the digest so the email can link to it:
 

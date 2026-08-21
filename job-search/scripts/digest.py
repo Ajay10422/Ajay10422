@@ -146,8 +146,13 @@ def _email_mail_row(m: dict, colour: str) -> str:
     </td></tr>"""
 
 
+EMAIL_MAX_JOBS = 15  # the email is a phone glance; the artifact holds the rest
+
+
 def render_email_html(d: dict) -> str:
     c = d["counts"]
+    shown = d.get("strong", [])[:EMAIL_MAX_JOBS]
+    hidden = max(0, len(d.get("strong", [])) - EMAIL_MAX_JOBS) + d.get("strong_overflow", 0)
     stats = [
         ("strong matches", c.get("strong", 0), PINE),
         ("new postings", c.get("new", 0), INK),
@@ -169,8 +174,9 @@ def render_email_html(d: dict) -> str:
     if d.get("status_updates"):
         blocks.append(("Application updates",
                        "".join(_email_mail_row(m, MUTED) for m in d["status_updates"])))
-    if d.get("strong"):
-        blocks.append(("Top matches", "".join(_email_job_row(j) for j in d["strong"])))
+    if shown:
+        label = "Top matches" if not hidden else f"Top {len(shown)} matches"
+        blocks.append((label, "".join(_email_job_row(j) for j in shown)))
     if d.get("weak"):
         blocks.append(("Also open", "".join(_email_job_row(j) for j in d["weak"])))
 
@@ -191,7 +197,10 @@ def render_email_html(d: dict) -> str:
             f'{c.get("repeat", 0)} postings were already in an earlier brief.</td></tr>'
         )
 
-    footer_bits = [
+    footer_bits = []
+    if hidden:
+        footer_bits.append(f"{hidden} more matches on the full brief")
+    footer_bits += [
         f"{c.get('seen_total', 0)} postings scanned",
         f"{c.get('repeat', 0)} already sent",
         f"{c.get('dropped', 0)} filtered out",
@@ -381,6 +390,7 @@ def render_artifact_html(d: dict) -> str:
   </header>
   {''.join(body)}
   <footer>
+    {f"{d['strong_overflow']} more matches not shown &middot; " if d.get('strong_overflow') else ""}
     {c.get('repeat', 0)} already sent in an earlier brief &middot;
     {c.get('dropped', 0)} filtered out &middot;
     sources: {esc(', '.join(d.get('sources_ran', [])))}

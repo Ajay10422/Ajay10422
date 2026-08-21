@@ -68,7 +68,10 @@
       "us citizenship required",
       "polygraph"
     ],
-    "min_score": 10
+    "min_score": 10,
+    "exclude_companies": [
+      "jobright"
+    ]
   },
   "scoring": {
     "skill_weights": {
@@ -159,5 +162,9 @@
     "jobs.ashbyhq.com",
     "apply.workable.com",
     "job-boards.greenhouse.io"
-  ]
+  ],
+  "delivery": {
+    "email_to": "ajaykrishna10422@gmail.com",
+    "artifact_url": "https://claude.ai/code/artifact/41841c9c-3355-4ea8-97b2-929989287475"
+  }
 }
