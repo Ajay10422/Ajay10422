@@ -51,12 +51,24 @@ Gmail and Indeed attached - that is the only way to grant them.
 
 ## Setup
 
+A scheduled session usually starts with **nothing checked out** - it is a fresh
+container, not this one. Get the repo first, then the branch:
+
 ```bash
-cd /home/user/Ajay10422
+REPO=/home/user/Ajay10422
+[ -d "$REPO/job-search" ] || git clone https://github.com/Ajay10422/Ajay10422.git "$REPO"
+cd "$REPO"
+git fetch origin claude/daily-job-search-automation-56x827
 git checkout claude/daily-job-search-automation-56x827
-git pull origin claude/daily-job-search-automation-56x827
+git pull --ff-only origin claude/daily-job-search-automation-56x827
 mkdir -p /tmp/jobradar
 ```
+
+If `/home/user` is not writable, clone to `~/Ajay10422` and use that path
+throughout. The repo is public, so the clone needs no credentials.
+
+Pushing is a different matter: a fresh session may have read access but no
+write credentials. That only affects Step 7 - see the note there.
 
 Read `job-search/config.json` - it holds the target roles, locations, filters
 and scoring weights. Change behaviour by editing that file, not the scripts.
@@ -253,8 +265,13 @@ git push -u origin claude/daily-job-search-automation-56x827
 ```
 
 If the push fails on a network error, retry up to 4 times with 2s/4s/8s/16s
-backoff. If it still fails, say so in the final message - the brief has already
-been delivered, only the dedupe memory is behind.
+backoff.
+
+If it fails because this session has no write credentials, do not fight it and
+do not go looking for tokens. Record `"seen store not persisted - next run will
+repeat these postings"` in the run's errors, deliver the brief anyway, and say
+so plainly in your report. The brief is the product; the dedupe memory is an
+optimisation. A run that delivers without persisting still did its job.
 
 ## Step 8 - Report
 
