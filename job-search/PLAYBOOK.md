@@ -20,6 +20,26 @@ reply.
    authenticated scraping. `scripts/linkedin.py` already throttles and backs
    off - do not raise its request rate.
 
+## Step 0 - Check which tools this session actually has
+
+Routines created through the API do not carry connector grants, so a scheduled
+run may start without `Gmail:*` or `Indeed:*` tools. Check before you plan the
+run, and degrade deliberately rather than crashing:
+
+| Missing | What to do |
+|---|---|
+| `Indeed:*` | Skip Step 1. Note `"Indeed connector unavailable"` in errors. LinkedIn and the ATS boards still carry the run. |
+| `Gmail:*` search | Skip Step 3 entirely. Note `"Gmail connector unavailable - inbox not scanned"`. Say so in your final report; it is the part Ajay most notices missing. |
+| `Gmail:send_message` | You cannot email the brief. Instead **put the whole brief in your final report message** - the Routine's completion notification pushes that to Ajay's phone and inbox, so it is the fallback delivery channel. Lead with anything needing a reply, then the top matches as markdown links. |
+| `Artifact` | Skip Step 5. Deliver by email and report only. |
+
+Never silently drop a source. Every skipped step becomes a line in `errors`,
+which the digest prints in its footer, and a sentence in your final report.
+
+If the connectors are missing two runs in a row, say plainly in your report
+that the Routine needs to be recreated from the claude.ai Routines UI with
+Gmail and Indeed attached - that is the only way to grant them.
+
 ## Setup
 
 ```bash
