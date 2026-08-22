@@ -23,8 +23,17 @@ reply.
 ## Step 0 - Check which tools this session actually has
 
 Routines created through the API do not carry connector grants, so a scheduled
-run may start without `Gmail:*` or `Indeed:*` tools. Check before you plan the
-run, and degrade deliberately rather than crashing:
+run may start without `Gmail:*` or `Indeed:*` tools.
+
+**Read your own tool list to answer this. Do not shell out to inspect the
+environment** - no `env`, no `printenv`, no `set`, no poking at `~/.claude`.
+Those commands stop for a permission prompt, and at 06:00 nobody is awake to
+approve one, so the whole run hangs until it times out. The same goes for the
+rest of the run: stick to the commands written in this playbook. If you find
+yourself wanting to run something exploratory, don't - note it in your report
+instead and finish the brief.
+
+Then degrade deliberately rather than crashing:
 
 | Missing | What to do |
 |---|---|
