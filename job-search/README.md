@@ -61,6 +61,28 @@ there. The scripts read it; they do not hardcode anything.
 To pause the automation, disable the two Routines in Claude; to change the
 times, edit their cron expressions. Both are named `Job Radar - morning/evening`.
 
+## Scheduling and the connector caveat
+
+Two Routines drive this:
+
+| Routine | Cron (UTC) | Local |
+|---|---|---|
+| `Job Radar - morning brief (6am ET)` | `0 10 * * *` | 06:00 America/Toronto |
+| `Job Radar - evening brief (6pm ET)` | `0 22 * * *` | 18:00 America/Toronto |
+
+Cron runs in UTC and does not follow daylight saving. The times above are
+correct for EDT (roughly March-November). When Ontario falls back to EST the
+briefs arrive an hour early, at 05:00 and 17:00 local, until the crons are
+shifted to `0 11 * * *` and `0 23 * * *`.
+
+> **Connectors.** Routines created through the API carry no connector grants,
+> so a scheduled run can start without Gmail and Indeed tools - which costs
+> the inbox scan and one job source. To grant them, recreate the two Routines
+> from the **claude.ai Routines UI**, which can attach connectors, using the
+> same prompts. Until then Step 0 of the playbook degrades the run
+> deliberately: it skips what it cannot reach, records it, and falls back to
+> the Routine's completion notification to deliver the brief.
+
 ## Running it by hand
 
 ```bash
